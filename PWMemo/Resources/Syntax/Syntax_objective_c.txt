@@ -1,0 +1,4 @@
+name=reserved_objecive_c
+foregroundColor=104,0,111
+font=bold
+expression=(\bid\b|\bClass\b|\bSEL\b|\bIMP\b|\bBOOL\b|\bnil\b|\bYES\b|\bNO\b)

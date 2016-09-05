@@ -1,0 +1,4 @@
+name=reserved_python
+foregroundColor=104,0,111
+font=bold
+expression=(\band\b|\bas\b|\bassert\b|\bbreak\b|\bclass\b|\bcontinue\b|\bdef\b|\bdel\b|\belif\b|\belse\b|\bexcept\b|\bexec\b|\bfinally\b|\bfor\b|\bfrom\b|\bglobal\b|\bif\b|\bimport\b|\bin\b|\bis\b|\blambda\b|\bnot\b|\bor\b|\bpass\b|\bprint\b|\braise\b|\breturn\b|\btry\b|\bwhile\b|\bwith\b|\byield\b)

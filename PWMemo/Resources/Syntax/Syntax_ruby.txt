@@ -1,0 +1,4 @@
+name=reserved_ruby
+foregroundColor=104,0,111
+font=bold
+expression=(\bBEGIN\b|\bEND\balias\b|\band\b|\bbegin\b|\bbreak\b|\bcase\b|\bclass\b|\bdef\b|\bdefined?\b|\bdo\b|\belse\b|\belsif\b|\bend\b|\bensure\b|\bfalse\b|\bfor\b|\bif\b|\bin\b|\bmodule\b|\b|\bnext\b|\bnil\b|\bnot\b|\bor\b|\bredo\b|\brescue\b|\bretry\b|\breturn\b|\bself\b|\bsuper\b|\bthen\b|\btrue\b|\bundef\b|\bunless\b|\buntil\b|\bwhen\b|\bwhile\b|\byield\b)
