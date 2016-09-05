@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RightMenuViewController" customModule="PWSimpleEditor" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="3VK-GK-lhR" id="BkU-fP-nMJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3VK-GK-lhR">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HfF-vr-dYW">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="43Q-79-9Nx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3VK-GK-lhR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7V6-zI-vsf"/>
+                <constraint firstItem="HfF-vr-dYW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BaH-Op-Yav"/>
+                <constraint firstAttribute="bottom" secondItem="HfF-vr-dYW" secondAttribute="bottom" id="OJe-c0-voS"/>
+                <constraint firstItem="HfF-vr-dYW" firstAttribute="top" secondItem="3VK-GK-lhR" secondAttribute="bottom" id="PnN-7H-20Y"/>
+                <constraint firstItem="3VK-GK-lhR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SZ2-Pd-Ehk"/>
+                <constraint firstItem="HfF-vr-dYW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VTn-2g-Ons"/>
+                <constraint firstItem="3VK-GK-lhR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XdR-eR-8dX"/>
+                <constraint firstAttribute="trailing" secondItem="HfF-vr-dYW" secondAttribute="trailing" id="j3f-dm-OBG"/>
+                <constraint firstAttribute="trailing" secondItem="3VK-GK-lhR" secondAttribute="trailing" id="yXG-Vg-uJp"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
